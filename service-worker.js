@@ -1,4 +1,4 @@
-let staticCacheName = 'currencyConvert-PWA-v1';
+let staticCacheName = 'currencyConvert-PWA-v2';
 let assetsToCache = [
     '/currency-converter/',
     '/currency-converter/index.html',
