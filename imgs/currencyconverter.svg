@@ -1,0 +1,15 @@
+<svg width="1200" height="650" viewBox="0 0 1295 759" overflow="cover" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Currency Converter</title>
+    <svg x="50" y = "70">
+        <svg>
+           <line x1="0" y1="250" x2="1200" y2="250" stroke="#ff2052" style="stroke-width:5"/>
+        </svg>
+        <svg >
+          <text x="-10" y="370" fill="#ff2052" text-decoration="bold" font-size="150">Currency</text>
+        </svg>
+        <svg >
+          <text x="600" y="370" fill="#00C4C7" text-decoration="bold" font-size="150">Converter</text>
+        </svg >
+    </svg>
+</svg>

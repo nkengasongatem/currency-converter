@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#00C5C6"/>
+    <meta name="Description" content="Currency Converter is a PWA developed by individual ALC learners during the
+     7 Days of Code Challenge in conclusion of the Google Africa Challenge Scholarship 2018.">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <script src="js/idb.js"></script>
+    <script src="js/main.js"></script>
+    <title>Currency Converter</title>
+</head>
+<body>
+    <nav>
+        <h1>Currency Converter</h1>
+    </nav>
+    <section>
+        <div id="converter-board" class="grid">
+            <div class="block1">
+                <h2>Currency I Have</h2>
+                <select id="currency-have"></select><br>
+                <h3>Amount</h3><br>
+                <input type="number" min="0" id="input-value" value="0">
+            </div>
+            <div class="Convert">
+                <button onclick="convert()">convert</button>
+            </div>
+            <div class="block2">
+                <h2>Currency I Want</h2>
+                <select id="currency-want"></select><br>
+                <h3>Amount</h3><br>
+                <input type="number" min="0" id="result">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
