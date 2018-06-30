@@ -1,14 +1,14 @@
-let staticCacheName = 'currencyConvert-PWA-v2';
+let staticCacheName = 'currencyConvert-PWA-v1';
 let assetsToCache = [
-    '/',
-    '/index.html',
-    '/css/main.css',
-    '/js/main.js',
-    '/js/idb.js',
-    '/imgs/currencyconverter.svg',
-    '/imgs/currencyconverter.png',
-    '/imgs/ok.png',
-    '/imgs/error.png'
+    '/currency-converter/',
+    '/currency-converter/index.html',
+    '/currency-converter/css/main.css',
+    '/currency-converter/js/main.js',
+    '/currency-converter/js/idb.js',
+    '/currency-converter/imgs/currencyconverter.svg',
+    '/currency-converter/imgs/currencyconverter.png',
+    '/currency-converter/imgs/ok.png',
+    '/currency-converter/imgs/error.png'
 ];
 
 // Cache all static contents (app shell)
